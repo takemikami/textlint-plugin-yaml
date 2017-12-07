@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel -s -d lib src",
-    "watch": "babel -w -s -d lib src"
+    "watch": "babel -w -s -d lib src",
+    "postinstall": "postinstall-build lib \"npm run build\""
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
   "dependencies": {
     "yaml-ast-parser": "0.0.40",
     "structured-source": "^3.0.2",
-    "traverse": "^0.6.6"
+    "traverse": "^0.6.6",
+    "postinstall-build": "^5.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
