@@ -15,7 +15,8 @@
     "yaml-ast-parser": "0.0.40",
     "structured-source": "^3.0.2",
     "traverse": "^0.6.6",
-    "postinstall-build": "^5.0.1"
+    "postinstall-build": "^5.0.1",
+    "textlint-plugin-html": "^0.1.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
