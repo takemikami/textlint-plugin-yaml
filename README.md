@@ -1,10 +1,10 @@
-# textlint-plugin-rails
-for rails view template and resource supoprt for textlint
+# textlint-plugin-yaml
+for yaml style resource supoprt for textlint
 
 ## Installation
 
 ```
-npm install -g takemikami/textlint-plugin-rails#master
+npm install -g takemikami/textlint-plugin-yaml#master
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ add plugin to your ``.textlintrc``
 ```
 {
   "plugins": [
-    "rails"
+    "yaml"
   ]
 }
 ```
@@ -22,7 +22,7 @@ add plugin to your ``.textlintrc``
 execute textlint
 
 ```
-textlint app/views/**/*.erb config/locales/**/*.yml
+textlint config/locales/**/*.yml
 ```
 
 ## Build
