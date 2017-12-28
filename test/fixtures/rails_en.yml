@@ -1,0 +1,4 @@
+en:
+  messages:
+    err_foo: 'system error'
+    err_bar: 'input error'

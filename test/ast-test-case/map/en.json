@@ -1,0 +1,149 @@
+{
+  "type": "Document",
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 5,
+      "column": 0
+    }
+  },
+  "range": [0, 50],
+  "raw": "top:\n  key1: value1\n  key2: value2\n  key3: value3\n",
+  "children": [{
+      "loc": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      },
+      "range": [
+        0,
+        3
+      ],
+      "raw": "top",
+      "value": "top",
+      "type": "Comment"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 2
+        },
+        "start": {
+          "column": 2,
+          "line": 2
+        }
+      },
+      "range": [
+        7,
+        11
+      ],
+      "raw": "key1",
+      "value": "key1",
+      "type": "Comment"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 2
+        },
+        "start": {
+          "column": 8,
+          "line": 2
+        }
+      },
+      "range": [
+        13,
+        19
+      ],
+      "raw": "value1",
+      "value": "value1",
+      "type": "Str"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 3
+        },
+        "start": {
+          "column": 2,
+          "line": 3
+        }
+      },
+      "range": [
+        22,
+        26
+      ],
+      "raw": "key2",
+      "value": "key2",
+      "type": "Comment"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 3
+        },
+        "start": {
+          "column": 8,
+          "line": 3
+        }
+      },
+      "range": [
+        28,
+        34
+      ],
+      "raw": "value2",
+      "value": "value2",
+      "type": "Str"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 4
+        },
+        "start": {
+          "column": 2,
+          "line": 4
+        }
+      },
+      "range": [
+        37,
+        41
+      ],
+      "raw": "key3",
+      "value": "key3",
+      "type": "Comment"
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 4
+        },
+        "start": {
+          "column": 8,
+          "line": 4
+        }
+      },
+      "range": [
+        43,
+        49
+      ],
+      "raw": "value3",
+      "value": "value3",
+      "type": "Str"
+    }
+  ]
+}
