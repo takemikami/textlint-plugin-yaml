@@ -12,6 +12,7 @@
     "postinstall": "postinstall-build lib \"npm run build\""
   },
   "dependencies": {
+    "postinstall-build": "^5.0.1",
     "structured-source": "^3.0.2",
     "traverse": "^0.6.6",
     "yaml-ast-parser": "^0.0.40"
